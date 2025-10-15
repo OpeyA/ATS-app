@@ -27,7 +27,7 @@ import ExternalLinks from "./ExternalLinks";
 import Notes from "./Notes";
 import { CompaniesData } from "../companiesData";
 import { recordID } from "./generateID";
-import logoUrl from '@/img/bearclaw-logo-inline.png';
+// import logoUrl from '@/img/bearclaw-logo-inline.png';
 
 //Type to hold the properties of the Job Page
 type JobProps = {
