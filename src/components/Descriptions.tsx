@@ -22,7 +22,8 @@ const Description = ({ job, onJobChange }: DescProps) => {
                 apiKey={import.meta.env.VITE_TINYMCE_API_KEY}
                 initialValue={job.internalDesc ?? ""}
                 init={{
-                  plugins: [ 'advlist','lists', 'autolink','link'],
+                  plugins: [ 'advlist','lists', 'autolink','link', 'code'],
+                  toolbar: 'bold italic | bullist numlist | link | code'
                 }}
                 onChange={(e) => onJobChange({...job, internalDesc: e.target.value})}
                 />
