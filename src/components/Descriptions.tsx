@@ -19,7 +19,7 @@ const Description = ({ job, onJobChange }: DescProps) => {
               </Form.Label>
               <Col>
                 <Editor
-                apiKey="kzubltanuccpwgeqydh5dklmyz2g9e634iq70n5vyhw5ud27"
+                apiKey={import.meta.env.VITE_TINYMCE_API_KEY}
                 initialValue={job.internalDesc ?? ""}
                 init={{
                   plugins: [ 'advlist','lists', 'autolink','link'],
@@ -44,10 +44,11 @@ const Description = ({ job, onJobChange }: DescProps) => {
                   }
                 /> HAD TO BE CHANGED cause Form.Control does not do rich text editor. */} 
                 <Editor
-                apiKey="kzubltanuccpwgeqydh5dklmyz2g9e634iq70n5vyhw5ud27"
+                apiKey={import.meta.env.VITE_TINYMCE_API_KEY}
                 initialValue={job.pubDesc ?? ""}
                 init={{
-                  plugins: [ 'advlist','lists', 'autolink','link'],
+                  plugins: [ 'advlist','lists', 'autolink','link', 'code'],
+                  toolbar: 'bold italic | bullist numlist | link | code'
                 }}
                 onChange={(e) => onJobChange({...job, pubDesc: e.target.value})}
                 />
