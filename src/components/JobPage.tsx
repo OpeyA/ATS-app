@@ -27,6 +27,7 @@ import ExternalLinks from "./ExternalLinks";
 import Notes from "./Notes";
 import { CompaniesData } from "../companiesData";
 import { recordID } from "./generateID";
+import logoUrl from '@/img/bearclaw-logo-inline.png';
 
 //Type to hold the properties of the Job Page
 type JobProps = {
@@ -106,8 +107,8 @@ function JobPage({ initialJob }: JobProps) {
             </Dropdown>
           </div>
           <img
-            src="../src/img/bearclaw-logo-inline.png"
-            alt=""
+            src={`${import.meta.env.BASE_URL}img/bearclaw-logo-inline.png`}
+            alt="Bear Claw logo"
             width="100"
             height="27"
             className="d-inline-block align-text-top"
