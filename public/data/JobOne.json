@@ -1,0 +1,38 @@
+{
+    "id": "JOB001" ,
+    "title": "UX Engineer",
+    "status":false,
+    "isOpen": false,
+    "isPublished": true,
+    "priority": "Warm",
+    "highlightColor": "orange",
+    "milestone": ["Submission", "Client Submission", "Interview", "Offer Accepted", "Offer Extended", "Start Date","Archive"],
+    "currMilestone": "Offer Extended",
+    "owner": {"id":"u1","name":"Kim Zolziac"},
+    "assignee": {"id":"u2", "name": "Nene Leaks"},
+    "createdDate": "2025-09-05T10:40:00Z",
+    "modifiedDate": "2025-09-25T12:15:00Z",
+    "kickoffDate": "2025-10-10",
+    "salary": 135000,
+    "minExperience": 5,
+    "industry": "Recruiting",
+    "modality": "Onsite",
+    "skills":[{"id": "sk1", "name": "Typescript", "kind": "hard"},{"id": "sk2", "name": "Communication", "kind": "soft"},{"id": "sk3", "name": "Figma", "kind": "hard"}],
+    "certifications":["NN/g UX Certification", "Masters Degree", "Bachelors Degree"],
+    "benefits":["Health Insurance", "401k", "PTO"],
+    "companyID":"BC2",
+    "companyName":"Bear Claw",
+    "contactID": "cntct1",
+    "contactName": "Justin Solomon",
+    "locations": [
+        {"id":"loc1","street":"1 Main St","city":"Chicago","state":"IL","zipCode":"60601"}
+      ],
+    "internalDesc": "Internal summary...",
+    "pubDesc": "Public summary....",
+    "externalLinks":[{
+        "id":"lnk1", "name":"LinkedIn", "url": "https://www.linkedin.com/jobs/view/ui-ux-developer-at-bear-claw-4297184038"
+    }],
+    "notes": [
+        {"id": "n1", "text": "Interview Scheduled.", "user":{"id":"u1", "name":"Kim Zolziac"}, "createdAt":"2025-09-23T12:15:00Z"}
+    ]
+}

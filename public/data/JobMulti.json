@@ -1,0 +1,75 @@
+{
+  "id": "JOB002",
+  "title": "Data Analyst",
+  "status": true,
+  "isOpen": true,
+  "isPublished": false,
+  "priority": "Hot",
+  "highlightColor": "red",
+  "milestone": [
+    "Submission",
+    "Client Submission",
+    "Interview",
+    "Offer Accepted",
+    "Offer Extended",
+    "Start Date",
+    "Archive"
+  ],
+  "currMilestone": "Client Submission",
+  "owner": { "id": "u3", "name": "Drew Williams" },
+  "assignee": { "id": "u4", "name": "Nick Taylor" },
+  "createdDate": "2025-09-05T10:40:00Z",
+  "modifiedDate": "2025-09-25T12:15:00Z",
+  "kickoffDate": "2025-10-10",
+  "salary": 120000,
+  "minExperience": 3,
+  "industry": "Finance",
+  "modality": "Hybrid",
+  "skills":[{"id": "sk1", "name": "Python", "kind": "hard"},{"id": "sk2", "name": "Data Visualization", "kind": "hard"},{"id": "sk3", "name": "Adaptability", "kind": "soft"}],
+  "certifications": ["COMPTia", "Masters Degree", "AWS Athena"],
+  "benefits": ["Health Insurance", "401k", "PTO"],
+  "companyID": "PP1",
+  "companyName": "PayPal",
+  "contactID": "cntct3",
+  "contactName": "Craig David",
+  "locations": [
+    {
+      "id": "loc1",
+      "street": "1 Main St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601"
+    },
+    {
+      "id": "loc2",
+      "street": "2 Rogers St",
+      "city": "Atlanta",
+      "state": "GA",
+      "zipCode": "30305"
+    },
+    {
+      "id": "loc3",
+      "street": "75 Park Ave",
+      "city": "New York",
+      "state": "NY",
+      "postalCode": "10016"
+    }
+  ],
+  "internalDesc": "Internal summary...",
+  "pubDesc": "Public summary...",
+  "externalLinks": [
+    {
+      "id": "lnk1",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/ui-ux-developer-at-bear-claw-4297184038"
+    }
+  ],
+  "notes": [
+    {
+      "id": "n1",
+      "text": "Interview Scheduled.",
+      "user": { "id": "u3", "name": "Drew Williams" },
+      "createdAt": "2025-09-23T12:15:00Z"
+    }
+  ]
+}
