@@ -18,12 +18,11 @@ function LocationCard({
   loc,
   onChange,
   onRemove,
-  index,
+
 }: {
   loc: Location;
   onChange: (l: Location) => void;
   onRemove: () => void;
-  index: number;
 }) {
   const change =
     <K extends keyof Location>(key: K) =>
@@ -101,7 +100,6 @@ const Locations = ({ job, onJobChange }: LocationProps) => {
       {job.locations.map((loc, i) => (
         <LocationCard
           key={loc.id}
-          index={i}
           loc={loc}
           onChange={(next) => updateLocation(i, next)}
           onRemove={() => deleteLocation(i)}
